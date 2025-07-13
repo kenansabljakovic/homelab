@@ -1,0 +1,5 @@
+# SOPS age encryption key
+age.agekey
+
+# Claude Code documentation
+CLAUDE.md
