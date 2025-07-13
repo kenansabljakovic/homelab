@@ -33,4 +33,7 @@ spec:
         ingressClassName: traefik
         hosts:
           - grs.keon.info
-        tls: []
+        tls:
+          - secretName: grafana-tls-secret
+            hosts:
+              - grs.keon.info
